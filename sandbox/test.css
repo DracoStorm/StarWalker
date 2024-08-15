@@ -1,0 +1,20 @@
+body {
+    background-color: #ccc;
+}
+
+.form {
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 20px;
+}
+
+.cuadro-chido {
+    padding: 20px;
+    background-color: #d7d0ee;
+    outline: #9778fc solid 10px;
+}
+
+#capa {
+    padding: 30px;
+    background-color: #0003;
+}

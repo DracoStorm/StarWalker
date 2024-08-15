@@ -1,0 +1,175 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins&family=Abel&family=Didact+Gothic";
+
+/*
+    Popins for titles
+    Abel for subtitles
+    Didactic Gothic for average text
+    all are sans serif
+*/
+
+:root {
+    font-size: 62.5%;
+    --light-blue: #BBD5F0;
+    --blue: #0971A6;
+    --off-blue: #00345C;
+    --dark-blue: #052033;
+    --darker-blue: #000B0F;
+
+}
+
+body {
+    background-color: var(--darker-blue);
+    color: var(--light-blue);
+}
+
+nav {
+    display: block;
+    height: 8rem;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding: .5rem;
+    background-color: var(--darker-blue);
+    z-index: 100;
+}
+
+#menu {
+    display: flex;
+    height: 7rem;
+    padding: .5rem;
+    align-items: center;
+}
+
+.menu__img {
+    display: flex;
+    height: 6rem;
+    width: 6rem;
+    margin: 0 1rem;
+    object-fit: fill;
+}
+
+.menu__ul {
+    display: flex;
+    height: 6rem;
+    padding-left: 3rem;
+    list-style: none;
+}
+
+.menu__li {
+    display: flex;
+    flex-wrap: wrap;
+    height: 4rem;
+    width: 12rem;
+    margin: auto 1rem;
+    align-items: center;
+    justify-content: center;
+    transition: color .5s ease;
+}
+
+
+.menu__li a {
+    font-family: Abel, sans-serif;
+    font-size: 2.5rem;
+    color: var(--light-blue);
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.menu__li a:hover {
+    color: aliceblue;
+}
+
+.menu__li i {
+    font-size: 2rem;
+    color: var(--light-blue);
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.menu__indicator {
+    height: 1rem;
+    width: inherit;
+    background-color: var(--light-blue);
+}
+
+#large-title__div {
+    display: flex;
+    height: 100rem;
+    margin-top: 8rem;
+    margin-bottom: 0;
+    padding: 10rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#large-title__div>h1 {
+    font-family: Poppin, sans-serif;
+    font-size: 12rem;
+    color: var(--light-blue);
+    outline: var(--blue) solid 1.5rem;
+    outline-offset: 3rem;
+}
+
+.medium-titles__div {
+    margin: 3rem 0;
+    padding: 4rem 3rem;
+    background-color: var(--dark-blue);
+    outline: var(--blue) solid 2rem;
+}
+
+.medium-titles__h2 {
+    font-family: Abel, sans-serif;
+    font-size: 8rem;
+    color: var(--light-blue);
+    text-align: center;
+}
+
+.content__div {
+    margin: 5rem 10rem;
+}
+
+.content__p {
+    font-family: Didactic Gothic, sans-serif;
+    font-size: 3.2rem;
+}
+
+.content__img {
+    display: flex;
+    height: 40rem;
+    align-content: center;
+    justify-content: center;
+    object-fit: fill;
+    filter: opacity(.8);
+    z-index: 0;
+}
+
+
+.content-separator {
+    height: 3rem;
+}
+
+footer {
+    height: 18rem;
+    background-color: var(--off-blue);
+}
+
+#footer__separator {
+    background-color: var(--blue);
+    height: 1.5rem;
+
+}
+
+.footer__div {
+    font-family: Didactic Gothic, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem;
+}
+
+.footer__div a {
+    text-decoration: none;
+    color: var(--light-blue);
+}
